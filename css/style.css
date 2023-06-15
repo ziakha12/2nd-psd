@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.head{
+    background: url(/images/banner-bg.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:top right;
+
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.navbar span{
+    display: block;
+}
+.navbar ul li a{
+    font-weight: 600;
+    color: black;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.navbar ul li a:hover,
+.navbar ul li:focus {
+    color: white;
+}
+/* *******************     BANNER SECTION               ********************** */
+.banner h1{
+    width: 400px;
+}
+.main-btn1{
+    padding: 13px 10px;
+    background :linear-gradient(75deg
+    ,seagreen 70%
+    , white);
+    width: 30%;
+    border-radius: 8px; 
+    border: 1px solid ;
+    box-shadow: 3px 3px 5px #04aa6d;
+    color: white;
+}
+.main-btn2{
+    padding: 13px 10px;
+    width: 30%;
+    border-radius: 8px; 
+    border: 1px solid black ;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+}
+.card2 img{
+    width: 120px;
+}   
+.card2{
+    box-shadow: 15px 17px 26px -25px rgba(0,0,0,0.96);
+    -webkit-box-shadow: 15px 17px 26px -25px rgba(0,0,0,0.96);
+    -moz-box-shadow: 15px 17px 26px -25px rgba(0,0,0,0.96);
+border-radius: 0%;
+}
+.card2 h6{
+    font-weight: 600;
+}
+.card2 a:hover{
+    color: green;
+    margin-left: 5px;
+}
+.second h4{
+    color: green;
+}
+.service-content{
+    width: 450px;
+}
+/* *******************     Foueth Section               ********************** */
+.fourth{
+    background-color: gainsboro;
+}
+.card3 img{
+    height: 230px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+}
+.about-content img{
+    box-shadow: inset 10px 10px 15px whia;
+}
+.testi-card{
+    border: 1px solid transparent;
+    box-shadow: 2px 3px 10px gray;
+}
+.carousel-indicators button{
+    margin-top: 50px;
+}
+.footer{
+    background: url(/images/footer/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
